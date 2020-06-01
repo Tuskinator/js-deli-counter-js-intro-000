@@ -18,7 +18,7 @@ function currentLine(Line) {
     var i = 0
     var newLine = []
     while (i < len - 1) {
-      if (i = 0) {
+      if (i == 0) {
         var x = i + 1
         newLine[i] = `${x}. ${Line[i]}`
         i = i + 1
